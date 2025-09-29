@@ -219,7 +219,7 @@ article P {
 }
 
 .menu-list dt {
-  width: 40%;
+  width: 45%;
 }
 
 .menu-pay {
@@ -556,7 +556,19 @@ small {
     width: 100%;
     margin-bottom: 40px;
   }
-  
+
+  footer {
+    height: 120px;
+  }
+
+  footer h2 {
+    font-size: 24px;
+    line-height: 90px;
+  }
+
+  small {
+    font-size: 12px;
+  }
   
 }
 
@@ -593,14 +605,28 @@ small {
   }
   
   #access dt {
-    width: 100%;
+    width: 40%;
     text-align: right;
     padding-right: 5%;
     letter-spacing: 5px;
   }
   
   #access dd {
-    width: 100%;
+    width: 60%;
     text-align: left; 
   }
+
+  footer {
+    height: 100px;
+  }
+
+  footer h2 {
+    font-size: 18px;
+    line-height: 70px;
+  }
+
+  small {
+    font-size: 9px;
+  }
+
 }
